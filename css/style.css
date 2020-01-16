@@ -1,0 +1,79 @@
+body img{
+  width: 180px;
+  height: 200px;
+  margin-left: 850px;
+  margin-bottom: -30px;
+
+
+}
+
+#form{
+    height: auto;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+
+  #btn1{
+    margin-left: 32em;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(24, 255, 209);
+    color: black;
+    text-transform:uppercase;
+    margin-top: 30px;
+    border-radius: 20px;
+  }
+  #bnt1:hover{
+      background-color: #1A3732;
+  }
+
+
+  .contant{
+    background-repeat: no-repeat;
+    background-image: url("/img1.jpg");
+    background-position: center;
+    
+  }
+
+  .contant label{
+    margin-left: 160px;
+    font-size: 24px;
+  font-family: 'Dubai';
+  }
+
+  .contant input{
+    margin-left: 400px  ;
+    width: 250px;
+    height: 20px;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
+  .tbl{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1330px;
+    border: 1px solid red;
+    margin-top: 10px;
+    
+    
+  }
+
+  
+  th {
+    background-color: #4CAF50;
+    
+  }
+
+  #tb td{
+    text-align: center;
+    border: 1px solid black;
+    font-size: 19px;
+    
+    
+  }

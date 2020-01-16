@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Exercice Formulaire Js</title>
+    <script type="text/javascript" src="js/Personne.js"></script>
+
+    
+</head>
+<body>
+    <img src="/logo.png">
+<form id="form">
+            <div class="contant">
+    <label>Prénom</label><br><input type="text" id="in1" class="input"><br>
+    <label>Nom</label><br><input type="text" id="in2" class="input"><br>
+    <label>Date de naissance</label><br><input type="date" id="in3" class="input"><br>
+    <label>Lieu de naissance</label><br><input id="in4" type="text" class="input"><br>
+    <label>N° Télé</label><br><input type="tel" id="in5" class="input"><br>
+    <label>Adresse</label><br><input type="text" id="in6" class="input"><br>
+    <label>Courriel</label><br><input type="email" id="in7" class="input"><br><br>
+
+    <input type="button" id="btn1" onclick="afficher()" value="Ajouter"></input>
+
+</div>
+</form>
+    <div class="tbl">
+
+    <table id="tb">
+        <tr id="cl">
+            <td width=150 style="background: #6BBF47 ;">Prénom</td>
+            <td width=150>Nom</td>
+            <td width=150>Date de naissance</td>
+            <td width=150>Lieu de naissance</td>
+            <td width=160>N° Télé</td>
+            <td width=280>Adresse</td>
+            <td width=280>Courriel</td>
+        </tr>
+    </table>
+</div>
+
+
+
+</body>
+</html>
